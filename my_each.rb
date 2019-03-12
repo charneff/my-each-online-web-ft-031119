@@ -4,7 +4,7 @@ def my_each(collection)
     yield(collection[i])
     i += 1 
   end
-  
+  collection
   # put argument(s) here
   # code here
 end
